@@ -15,7 +15,7 @@ To remember where my exploration of computers began.
 ## index
 
 <div style="display: flex; align-items: flex-start;">
-    <img style="width: 100%" src="./screenshots/screenshot.png" />
+    <img style="width: 100%" src="./screenshots/screenshot.webp" />
 </div>
 
 > [live preview](https://mohammadshool.github.io/old-memory-web-pages/hotel-and-airbus/index.html)
