@@ -41,15 +41,15 @@ The main reason I made this public is that I wanted to use GitHub's static pages
 
 ## screenshots
 <div style="display: flex">
-    <img style="width: 33%" src="./bytegame-first-edition/screenshots/index-desktop.webp" />
-    <img style="width: 33%" src="./bytegame-tailwind-version/screenshots/home-desktop.webp" />
-    <img style="width: 33%" src="./dandedo/screenshots/index-desktop.webp" />
+    <img style="width: 32%" src="./bytegame-first-edition/screenshots/index-desktop.webp" />
+    <img style="width: 32%" src="./bytegame-tailwind-version/screenshots/home-desktop.webp" />
+    <img style="width: 32%" src="./dandedo/screenshots/index-desktop.webp" />
 </div>
 <div style="display: flex">
-    <img style="width: 33%" src="./mihanwp/screenshots/index-desktop.webp" />
-    <img style="width: 33%" src="./the-best-blog/screenshots/index-desktop.webp" />
-    <img style="width: 33%" src="./hotel-and-airbus/screenshots/screenshot.webp" />
+    <img style="width: 32%" src="./mihanwp/screenshots/index-desktop.webp" />
+    <img style="width: 32%" src="./the-best-blog/screenshots/index-desktop.webp" />
+    <img style="width: 32%" src="./hotel-and-airbus/screenshots/screenshot.webp" />
 </div>
 <div style="display: flex">
-    <img style="width: 33%" src="./dragon-programmer/screenshots/index-desktop.webp" />
+    <img style="width: 32%" src="./dragon-programmer/screenshots/index-desktop.webp" />
 </div>
