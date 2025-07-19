@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/style.css"/>
+        <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>رزرو هتل و بلیط هواپیما | اسنپ تریپ</title>
+    </head>
+    <body>
+        <!-- Special offers -->
+        <div id="Special_offers" class="Special_offers">
+           <div class="row">
+            <div class="cross_S">
+                <button onclick="Closetab('Special_offers')">×</button>
+            </div>
+            <div class="content_SP">
+                <p>
+                    گشتیم نبود، نگرد نیست<br>
+                   طرح تضمین قیمت در اسنپ‌تریپ
+                </p><br>
+                <a href="#">
+                    اطلاعات بیشتر
+                </a>
+            </div>
+           </div>
+        </div>
+
+        <!-- header -->
+        <header class="header">
+            <nav class="header-navigation">
+                <div class="logo-h">
+                    <img src="images/snapptrip-logo.svg">
+                </div>
+                <div class="content-h-n">
+                    <li><a class="special-a-n" href="#">پیگیری خرید</a></li>
+                    <li><a class="Normal-a-n" href="#">بلیط هواپیما</a></li>
+                    <li><a class="Normal-a-n" href="#">بلیط اتوبوس</a></li>
+                    <li><a class="Normal-a-n" href="#">پیشنهاد ویژه</a></li>
+                    <li><a class="Normal-a-n" href="#">بلاگ</a></li>
+                    <li><a class="Normal-a-n" href="#">شرکت ها و اژانس ها</a></li>
+                    <li><a class="Normal-a-n" href="#">فرصت های شغلی</a></li>
+                </div>
+                <div class="login-r-us">
+                    <li><a class="login-h-r" href="#">ورود</a></li>
+                    <li><a class="register-h-r" href="#">عضویت</a></li>
+                </div>
+            </nav>
+            <div class="content-h">
+                <h1 class="h1-c-h">
+                    رزرو هتل و خرید بلیط هواپیما و اتوبوس
+                </h1><br>
+                <p class="p-c-h">رزرو هتل، رزرو هتل آپارتمان و خرید اینترنتی بلیط هواپیما و بلیط اتوبوس با بهترین قیمت در همه شهرهای ایران</p>
+                <div class="selection-mode-c-h">
+                    <button id="1s-c-h" class="selection-mode selection-active" onclick="openTabSelection('selection-hotel','1s-c-h')">هتل</button>
+                    <button id="2s-c-h" class="selection-mode" onclick="openTabSelection('selection-air','2s-c-h')">پرواز</button>
+                    <button id="3s-c-h" class="selection-mode" onclick="openTabSelection('selection-bos','3s-c-h')">اتوبوس</button>
+                    <button id="4s-c-h" class="selection-mode" onclick="openTabSelection('selection-house-modern','4s-c-h')">ویلا</button>
+                </div>
+                <div class="show-reletives-selection">
+                    <div class="selection-reletives" id="selection-hotel">
+                        <div class="search-city">
+                            <p>جست و جوی شهر یا هتل</p>
+                            <input type="text" placeholder="شهر یا هتل مورد نظرتان را انتخاب کنید">
+                        </div>
+                        <div class="dateopen">
+                            <p>تاریخ ورود</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <div class="dateclose">
+                            <p>تاریخ خروج</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <button class="search-button">جست و جو</button>
+                    </div>
+                    <div class="selection-reletives" id="selection-air">
+                        <div class="search-city">
+                            <p>جست و جوی شهر یا هتل</p>
+                            <input type="text" placeholder="شهر یا هتل مورد نظرتان را انتخاب کنید">
+                        </div>
+                        <div class="dateopen">
+                            <p>تاریخ ورود</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <div class="dateclose">
+                            <p>تاریخ خروج</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <button class="search-button">جست و جو</button>
+                    </div>
+                    <div class="selection-reletives" id="selection-bos">
+                        <div class="search-city">
+                            <p>جست و جوی شهر یا هتل</p>
+                            <input type="text" placeholder="شهر یا هتل مورد نظرتان را انتخاب کنید">
+                        </div>
+                        <div class="dateopen">
+                            <p>تاریخ ورود</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <div class="dateclose">
+                            <p>تاریخ خروج</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <button class="search-button">جست و جو</button>
+                    </div>
+                    <div class="selection-reletives" id="selection-house-modern">
+                        <div class="search-city">
+                            <p>جست و جوی شهر یا هتل</p>
+                            <input type="text" placeholder="شهر یا هتل مورد نظرتان را انتخاب کنید">
+                        </div>
+                        <div class="dateopen">
+                            <p>تاریخ ورود</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <div class="dateclose">
+                            <p>تاریخ خروج</p>
+                            <input type="text" placeholder="انتخاب تاریخ">
+                        </div>
+                        <button class="search-button">جست و جو</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- content -->
+        <div class="content">
+            <div class="ShowTimeImage">
+                <div class="showStatic">
+                    <img src="images/picture-4.webp" alt="">
+                    <img src="images/picture-5.webp" alt=""> 
+                </div>
+                <div id="wrapper">
+                    <div id="slideshow">
+                        <ul>
+
+                            <li class="active"><a href="#"> <img style="width: 100%" src="images/picture-1.webp" alt="Slideshow Image 2" /></a><p class="title" >ده درصد تخفیف</p></li>
+                            <li><a href="#"><img style="width: 100%" src="images/picture-2.webp" alt="Slideshow Image 2" /></a><p class="title" >بهترین قیمت ها</p></li>
+                            <li><a href="#"><img style="width: 100%" src="images/picture-3.webp" alt="Slideshow Image 2" /> </a><p class="title" >گشتم نبود نگرد نیست</p></li>
+                            <li><a href="#"><img style="width: 100%" src="images/picture-4.webp" alt="Slideshow Image 2" /> </a><p class="title" >پیش به سوی جاده ها</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br><br/>
+            <div class="bannernew">
+                <img src="images/Snapp-Room-Banner.webp" alt="">
+            </div>
+            <div class="SpecialChose">
+                <br><br/>
+                <h1 class="h1-c-h">هتلی که همیشه می‌خواستید، با قیمتی ارزان‌تر</h1>
+                <br><br/>
+                <div class="ContentSpecialChose">
+                    <div class="SpecialDiv">
+                        <img src="images/images-1.webp" alt="">
+                        <h1 style="font-size: 25px;" class="h1-c-h">هتل اپارتمان فلامینگو چالوس</h1>
+                    </div>
+                    <div class="SpecialDiv">
+                        <img src="images/images-2.webp" alt="">
+                        <h1 style="font-size: 25px;" class="h1-c-h">هتل پارمیدا کیش</h1>
+                    </div>
+                    <div class="SpecialDiv">
+                        <img src="images/images-3.webp" alt="">
+                        <h1 style="font-size: 25px;" class="h1-c-h">هتل لاله یزد</h1>
+                    </div>
+                    <div class="SpecialDiv">
+                        <img src="images/images-4.webp" alt="">
+                        <h1 style="font-size: 25px;" class="h1-c-h">هتل سارینا (چهار ستاره) مشهد</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="H1PContent-c">
+                <h1 class="h1-Content-c">
+                    رزرو هتل از گذشته تا امروز
+                </h1>
+                <p class="pContentC">
+                    احتمالاً خیلی از ما همین چند سال پیش را به خاطر داریم که هنوز امکان رزرو آنلاین هتل فراهم نبود؛ در آن زمان مجبور بودیم بعد از رسیدن به مقصد هتل‌مان را رزرو کنیم. اگر هم در فصل‌های پرمسافر سفر می‌کردیم، کار مشکل‌تری پیش روی داشتیم؛ ظرفیت هتل‌های آشنا تکمیل بود و ناچار بودیم برای پیداکردن محل اقامت چندساعتی در شهر بگردیم؛ البته درنهایت هم فقط با تکیه بر بخت‌واقبال‌مان هتلی را انتخاب می‌کردیم.<br>
+                    حالا این روزها وضعیت فرق کرده است و کارها راحت‌تر پیش می‌رود؛ به‌کمک وب‌سایت‌های رزرو آنلاین هتل، به‌راحتی، می‌توانیم هتل‌های مختلف شهر را از نظر قیمت، امکانات و دسترسی به دیدنی‌های مهم شهر با هم مقایسه کنیم، نظر مسافرهای قبلی درباره اقامت‌شان در هتل‌ها را بخوانیم و مناسب‌ترین گزینه برای اقامت‌مان را انتخاب کنیم. همه این موارد دست ما را باز می‌گذارد که هتل دلخواه‌مان را با اطمینان بیشتری انتخاب کنیم؛ از طرفی با این روش می‌توانیم نظرمان درباره هتل را با دیگران به اشتراک بگذاریم و به مسافرهای بعدی کمک کنیم از تجربه ما استفاده کنند و هتلی مناسب را برای اقامت‌شان در نظر بگیرند.
+                </p>
+            </div>
+            <div class="H1PContent-c">
+                <h1 class="h1-Content-c">
+                    ​​مزایای رزرو اینترنتی هتل، صرفه‌جویی در زمان و انتخابی هوشمندانه
+                </h1>
+                <p class="pContentC">
+                    در سال‌های اخیر شتاب زندگی روزمره بالا رفته‌است و به‌تبع آن، ما زمان کمتری برای چیدن مقدمات سفر در اختیار داریم؛ مجبوریم از کمترین زمان‌هایمان بهترین استفاده را ببریم، چه برای برنامه‌ریزی سفر و چه در خود سفر. رزرو اینترنتی به ما کمک می‌کند در سفرهایمان زمان را صرف پیداکردن محل اقامت نکنیم و دردسرهای رزرو هتل به‌شیوه سنتی را نداشته‌باشیم.<br>
+                    یکی از مهم‌ترین مشکلات رزرو محل اقامت به‌شیوه سنتی بی‌اطلاعی از ظرفیت هتل‌هاست؛ ما از راه دور امکان رزرو هتل را نداریم و نمی‌توانیم مطمئن باشیم وقتی به مقصد می‌رسیم هتل دلخواه‌مان هنوز ظرفیت داشته‌باشد. رزرو آنلاین هتل نگرانی ما را در این مورد هم برطرف می‌کند؛ با این روش می‌دانیم وقتی به مقصد رسیدیم، جای ما در هتل دلخواه‌مان محفوظ است.<br>
+                    همان‌طور که پیش‌تر اشاره کردیم، رزرو اینترنتی هتل به ما کمک می‌کند تمامی هتل‌های شهر را در یک نگاه ببینیم و ویژگی‌هایشان را بررسی کنیم و در یک کلام، هتل مناسب و دلخواه‌مان برای اقامت در سفر را با آگاهی انتخاب کنیم؛ همه این مزایا وقتی پررنگ‌تر می‌شود که به یاد داشته باشیم هیچ‌یک از این امکان‌ها در شیوه آفلاین رزرو هتل فراهم نیست.
+                </p>
+            </div>
+            <div class="H1PContent-c">
+                <h1 class="h1-Content-c">
+                    رزرو آنلاین هتل با اسنپ‌ تریپ
+                </h1>
+                <p class="pContentC">
+                    این ‌روزها رزرو هتل به‌کمک اینترنت از رایج‌ترین روش‌ها برای برنامه‌ریزی سفر است. بیشتر کسانی که قصد سفر دارند پیش از هر تصمیمی ابتدا درباره شهر مقصد و اقامتگاه‌هایش جست‌وجو می‌کنند که بتوانند از پیش برنامه‌ سفرشان را بچینند. اسنپ تریپ یکی از کامل‌ترین وب‌سایت‌های رزرو آنلاین هتل است و با بیش از ۸۰۰ هتل در شهرهای مختلف ایران همکاری می‌کند. شما در اسنپ تریپ به اطلاعات کاملی از هتل‌ها دسترسی دارید؛ می‌توانید موقعیت جغرافیایی هتل‌‌ها را روی نقشه ببینید و امکانات عمومی هتل و امکانات هر اتاق را به‌تفکیک مشاهده کنید؛ درنهایت هم با چند کلیک ساده در وب‌سایت اسنپ تریپ، به‌راحتی، اقامتگاه دلخواه‌تان را رزرو می‌کنید.<br>
+                    اسنپ تریپ در ابتدا برای رزرو هتل طراحی شده‌بود، اما حالا خدمات این سامانه فقط به رزرو هتل محدود نمی‌شود. اسنپ تریپ، علاوه‌بر رزرو هتل های داخلی، امکانات دیگری هم در اختیار کاربران قرار می‌دهد که فرایند سفر را برای آن‌ها بسیار ساده‌تر می‌کند؛ خرید اینترنتی بلیط هواپیما یکی دیگر از خدمات اسنپ تریپ برای مسافران است؛ به‌این ترتیب شما برای گرفتن بلیط هواپیما مجبور نیستید به سامانه دیگری سر بزنید و راحت‌تر از همیشه و البته با قیمتی مناسب‌تر از هر جا هم هتل محل اقامت و هم بلیط هواپیمایتان را رزرو می‌کنید.<br>
+                    یکی دیگر از خدمات اسنپ تریپ بلاگ این سامانه است. پیش از رزرو آنلاین هتل می‌توانید از بلاگ اسنپ تریپ به‌عنوان راهنمایی استفاده کنید که به شما درباره‌ی صفر تا صد سفرتان کمک می‌کند. بلاگ اسنپ تریپ درباره‌ی چگونگی سفر و شهر مقصد شما، هر جای ایران که باشد، اطلاعات کاملی در اختیارتان قرار می‌دهد. کافی است پیش از سفر به بلاگ اسنپ تریپ سر بزنید تا با جاذبه‌ها، خوراکی‌ها، مراکز خرید و مکان‌های تاریخی و گردشگری و همه‌ خصوصیات شهر مقصدتان آشنا شوید و درنهایت، برای سفرتان بهتر برنامه بریزید و سفری بهتر را تجربه کنید.
+                </p>
+            </div>
+            <div class="H1PContent-c">
+                <h1 class="h1-Content-c">
+                    رزرو هتل آپارتمان، احساس اقامت در خانه خودتان
+                </h1>
+                <p class="pContentC">
+                    بسیاری از افراد تصور می‌کنند هتل آپارتمان‌ها نسبت به هتل‌ها سطح پایین‌تری دارند، اما واقعیت این‌طور نیست. شاید برای شما هم پیش آمده‌باشد که هنگام انتخاب محل اقامت، این دو نوع اقامتگاه را با هم مقایسه کنید و در قیمت‌شان تفاوتی نبینید؛ احتمالاً این مسئله شما را در انتخاب میان این دو گزینه مردد می‌کند. درواقع بزرگ‌ترین تفاوت این دو در اندازه واحد‌های اقامتی‌ است؛ شما با رزرو هتل آپارتمان واحد اقامتی بزرگ‌تری در اختیار خواهید داشت و امکاناتی مانند یک واحد آپارتمانی برایتان فراهم خواهد بود.<br>
+                    همان‌طور که گفتیم هتل آپارتمان‌ها همیشه واحدهای اقامتی ارزان‌تری نیستند، بااین‌حال از آنجا که این اقامتگاه‌‌ها امکان آشپزی را برای مهمانان فراهم می‌کنند، انتخاب خوبی برای کسانی است که می‌خواهند در هزینه‌هایشان صرفه‌جویی کنند؛ طبیعتاً اینکه خودمان بتوانیم آشپزی کنیم و مجبور نباشیم برای صرف غذا به رستوران برویم هزینه‌هایمان را به‌مراتب کمتر می‌کند.<br>
+                    از طرفی مسافرها بسته به شهر و نوع سفرشان اقامتگاه‌شان را انتخاب می‌کنند. کسانی که خانوادگی سفر می‌کنند ترجیح می‌دهند همه اعضای خانواده در یک واحد و کنار هم اقامت داشته باشند، بنابراین در بعضی شهرها اولویت با اقامتگاه‌هایی است که واحدهای بزرگ‌تری دارند، مثلاً در شهری مانند مشهد که بیشتر افراد خانوادگی و اغلب با هدف زیارت به آن سفر می‌کنند، هتل آپارتمان‌ها واحد‌های اقامتی محبوب‌تری هستند.
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="content-up-f">
+                <p class="PContentF">
+                    مشهد / <a href="#">هتل های مشهد</a>
+                    <br><br/>
+                    تهران / <a href="#">هتل های تهران</a>
+                    <br><br/>
+                    کیش / <a href="#">هتل های کیش</a>
+                    <br><br/>
+                    اصفهان / <a href="#">هتل های اصفهان</a>
+                </p>
+                <div class="getapp-f">
+                    <h1>دانلود اپلیکیشن اسنپ تریپ</h1>
+                    <p>اپلیکیشن اسنپ تریپ را دانلود کنید و با موبایل رزروتان را آسان‌تر انجام دهید.</p>
+                </div>
+            </div>
+            <div class="content-bot-f">
+
+            </div>
+            <div class="copyright">
+                <p>از مطالب این وب‌سایت فقط می‌توانید برای مقاصد غیرتجاری و با ذکر منبع استفاده کنید. تمامی حقوق این وب‌سایت به شرکت آرا جهان نوین گستر اطلس تعلق دارد.</p>
+            </div>
+        </div>
+        <script src="../assets/jquery-3.6.0.min.js"></script>
+        <script src="js/js.js"></script>
+        <script>
+            function slideSwitch() {
+
+                var active = $('#slideshow li.active');
+                if (active.length == 0) active = $('#slideshow li:last-child');
+                var next =  active.next().length ? active.next(): $('#slideshow li:first-child');
+                active.addClass('last-active');
+                $('.title').animate({bottom:'-30px'});
+                next.css({opacity: 0.0})
+                    .addClass('active')
+                    .animate({opacity: 1.0}, 1000, function() {
+                        active.removeClass('active last-active');
+                    });
+                $('.title').animate({bottom:'0'});
+            }
+
+            $(function() {
+                setInterval( "slideSwitch()", 5000 );
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Bytegame</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="dist/output.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="../assets/fontawesome/css/all.min.css" />
+	<link rel="stylesheet" href="package/swiper-bundle.min.css" />
+
+	<script type="text/javascript" src="jquery.js"></script>
+
+</head>
+<body class="bg-[#0b141b] text-white font-snas">
+
+	<!-- header -->
+	<header class="flex flex-row bg-[#0e1f26] p-4">
+
+		<!-- header brand -->
+		<div class="flex-1 flex justify-start lg:justify-center items-center">
+			<h2 class="text-[#0ad181] text-3xl font-bold"><a href="">ByteGame</a></h2>	
+		</div>
+
+		<!-- header collapse content -->
+		<div id="site-collapse-content" class="flex-[4_4_0%] hidden flex-col absolute lg:relative top-16 w-full left-0 lg:top-0 bg-[#0e1f26] lg:flex lg:flex-row justify-center items-center lg:p-0 p-3 z-10">
+
+			<!-- header menu -->
+			<ul class="flex-[4_4_0%] flex flex-col lg:flex-row w-full flex-wrap justify-start items-start lg:items-center">
+				<li class="ml-3 lg:mt-0 mt-3"> <a href="">Games</a> </li>
+				<li class="ml-3 lg:mt-0 mt-3"> <a href="">About Us</a> </li>
+			</ul>
+
+			<!-- header LR Buttons -->
+			<div class="flex-1 flex flex-row justify-center items-center">
+
+				<!-- just now it is hidden -->
+				<a class=" flex flex-row justify-center items-center hidden" href="">
+					<img class="rounded-full w-10 h-10" src="images/user.webp">
+					<h1 class="ml-2">Mohammad</h1>
+				</a>
+
+				<a href="" class="bg-green-400 pl-6 pr-6 pt-2 pb-2 rounded-full">Login</a>
+	
+			</div>
+		</div>
+
+		<div class="flex-1 lg:hidden flex flex-row justify-end items-center">
+
+			<button id="toggle-collapse">
+				<i class="fa-solid fa-bars text-3xl"></i>
+			</button>
+
+		</div>
+
+	</header>
+
+
+	   <div class="flex flex-wrap mt-12">
+           <section class="basis-3/4 mx-auto px-4 max-w-screen-xl lg:px-8">
+
+            <div class="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-1">
+
+                <article class="w-3/4 mx-auto mt-4 shadow-lg bg-gray-800 rounded-md duration-300 hover:shadow-sm">
+                    <a href="">
+                        <img src="images/game1.webp"  class="w-full rounded-t-md" />
+
+                        <div class="pt-3 ml-4 mr-2 mb-3">
+                            <h3 class="text-xl text-white font-bold">
+                                Title
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">Description</p>
+                        </div>
+
+                        <div class="flex items-center mt-2 p-3 ml-4 mr-2 border-t border-gray-500">
+                            <div class="flex-none w-10 h-10 rounded-full">
+                                <img src="images/game1.webp" class="w-full h-full rounded-full" />
+                            </div>
+                            <div class="flex-1 ml-3">
+                                <span class="block font-bold">Mohammad</span>
+                                <span class="block text-gray-400 text-sm">jullay 26 12</span>
+                            </div>
+                            <div class="flex-1 ml-3 flex justify-end items-center">
+                                <p class="text-gray-400">1002</p>
+                                <i class="fa-solid fa-comment ml-3"></i>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </article>
+            </div>
+
+            <div class="flex flex-wrap justify-center items-center mt-12">
+                
+                <h1><a href="" class="bg-gray-400 pt-2 pr-3 pl-3 pb-2 rounded-lg"><i class="fa-solid fa-arrow-left"></i></a></h1>
+
+                <div class="flex">
+                    <h1 class="ml-4"><a href="" class="bg-green-400 pt-2 pl-4 pr-4 pb-2 rounded-lg">1</a></h1>
+                    <h1 class="ml-4"><a href="">2</a></h1>
+                    <p class="ml-4 font-bold">. . .</p>
+                    <h1 class="ml-4"><a href="">5</a></h1>
+                </div>
+
+                <h1 class="ml-4"><a href="" class="bg-gray-400 pt-2 pr-3 pl-3 pb-2 rounded-lg"><i class="fa-solid fa-arrow-right"></i></a></h1>
+
+            </div>
+
+        </section>
+
+        <!-- sidebar -->
+        <div class="basis-1/4">
+            
+            <form action="#" method="get" class="mt-12 flex">
+                <input type="text" name="" placeholder="type something ..." class="pt-2 pr-6 pl-6 pb-2 rounded-l-lg">
+                <button class="bg-green-400 hover:bg-green-500 ease-in duration-100 pt-2 pr-6 pl-6 pb-2 rounded-r-lg"><i class="fa-solid fa-search"></i></button>
+            </form>
+
+            <!-- widget -->
+            <div class="flex flex-col mt-12">
+                <h1 class="font-extrabold text-xl">This is my first widget</h1>
+                <hr class="w-5/6 my-3 border-none bg-gray-700 h-px">
+                <ul class="text-gray-400">
+                    <li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 1</a></li>
+                    <li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 2</a></li>
+                    <li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 3</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+       </div>  
+
+
+		<footer class="mt-12 flex lg:flex-row flex-col bg-[#0e1f26] p-6">
+		<div class="flex-1 flex justify-center items-center mt-3">
+			<h1 class="font-extrabold text-2xl text-green-400">ByteGame</h1>
+		</div>
+		<div class="flex-1 mt-3">
+			<h1 class="font-bold text-xl text-gray-200">latest posts</h1>
+			<ul class="mt-3 text-gray-400">
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 1</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 2</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 3</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="flex-1 mt-3">
+			<h1 class="font-bold text-xl text-gray-200">latest posts</h1>
+			<ul class="mt-3 text-gray-400">
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 1</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 2</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 3</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="flex-1 mt-3">
+			<h1 class="font-bold text-xl text-gray-200">social media</h1>
+			<ul class="flex flex-row mt-3">
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-twitch"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+				<!-- <li><a href=""></a></li> -->
+			</ul>
+		</div>
+	</footer>
+
+	<script src="../assets/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

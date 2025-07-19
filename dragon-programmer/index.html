@@ -1,0 +1,245 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="style/style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="icon" href="image/DragonLogo.webp">
+
+        <title>Dragon Proggramer | Home</title>
+    </head>
+    <body>
+        <button class="backgroundgrayMenuCloser" id="backgroundgrayMenuCloser" onclick="ShowMenu()"></button>
+        <div id="beforeLoading">
+            <div>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+                <div class="circle5"></div>
+                <div class="circle6"></div>
+            </div>
+        </div>
+        <div id="Main">
+            <header class="header">
+                <div class="TopestHeader">
+                    <div class="logoBox">
+                        <img class="logoimg" src="image/DragonLogo.webp">
+                        <button onclick="ShowMenu()">
+                            <img class="ic_menu" src="image/ic_menu.webp">
+                        </button>
+                    </div>
+                    <div class="SearchBox">
+                        <div class="input">
+                             <button><i class="fa fa-search"></i></button>
+                            <input type="text" name="SearchField" placeholder="متن مورد نظر خود را وارد کنید">
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                <nav id="nav" class="nav">
+                    <div class="ContentNav">
+                            <li id="navlis" v-for="HeaderLink in HeaderLinks"><a :href="HeaderLink.Lick">{{HeaderLink.Text}}</a></li>
+                    </div>
+                    <div class="LogoNav">
+                        <button class="DropBTN">حساب کاربری</button>
+                        <div class="DropContent">
+                            <li><a href="Login.html">ورود</a></li>
+                            <li><a href="Register.html">ثبت نام</a></li>
+                        </div>
+                    </div>
+                </nav>
+
+                <nav id="navmoblie" class="navmoblie">
+                    <div class="ContentNav">
+                            <li id="navlis" v-for="HeaderLink in HeaderLinks"><a :href="HeaderLink.Lick">{{HeaderLink.Text}}</a></li>
+                        <div class="ic_menus">
+                            <li><a href="Login.html">ورود</a></li>
+                            <li><a href="Register.html">ثبت نام</a></li>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="contentHeader">
+                    <div class="RightHeaderC">
+                        <h1>اموزش ساخت بازی کامپیوتری</h1>
+                        <p>دراگون پروگرامر یک سایت اموزشی بازی سازی انلاین</p><br>
+                        <a href="">اطلاعات بیشتر</a>
+                    </div>
+                    <div class="LeftHeaderC">
+                        <img src="image/programmers.webp" alt="">
+                    </div>
+                </div>
+            </header>
+             
+            <div class="Content">
+                <div class="div12">
+                    <div class="row">
+                        <div style="display: block;" class="RightDiv">
+                            <h1 style="color: #3b3b3b; font-family:iran;">فرق اساسی ما با بقیه</h1><br><br/>
+                            <p style="color: #3b3b3b;font-family:iran;">شما میتونید در سایت ما مثل بقیه سایت های بازی سازی اموزش های انلاین و ... پیدا کنید</p><br><br/>
+                            <a href="">اطلاعات بیشتر</a>
+                        </div>
+
+                        <div style="display: block;" class="LeftDiv">
+                            <img style="width: 50%;border-radius: 50px;" src="image/programmers.webp">
+                        </div>
+
+                        <div style="display: none;" class="RightDiv">
+                            <img style="width: 50%;border-radius: 50px;" src="image/programmers.webp" alt="">
+                        </div>
+
+                        <div style="display: none;" class="LeftDiv">
+                            <h1 style="color: #3b3b3b; font-family:iran;">فرق اساسی ما با بقیه</h1><br><br/>
+                            <p style="color: #3b3b3b;font-family:iran;">ما همانند بقیه سایت ها به شما اموزش میدهیم که بازی بسازید و به شما این امکان را میدهیم که بازی انلاین بسازید اما فرق اساسی ما با بقیه این است که ما به شما اموزش میدهیم که خود بخش بک اند بازی انلاین را بزنید نه اینکه به شما توابع اماده بازی سازی انلاین بدهیم و ...</p><br><br/>
+                            <a href="">اطلاعات بیشتر</a>
+                        </div>
+                    </div>
+                    <div class="div12">
+                    <div class="row row1">
+                        <div style="display: none;" class="RightDiv">
+                            <h1 style="color: #3b3b3b; font-family:iran;">درباره ما</h1><br><br/>
+                            <p style="color: #3b3b3b;font-family:iran;">
+                                 دراگون پروگرامر یک تیم جوان با تجربه و با توکل و تکیه بر خدا است که به این عرصه امده است که کار های بزرگی کند.
+                                <br>
+                                تیم دراگون یک تیم بازی سازی افلاین / انلاین است که اندیشه بر این سخن امام علی دارد که میگوید ذکات علم نشر ان است. که تیم ما علم خود را با شما به اشتراک میگذارد
+                            </p><br><br/>
+                            <a href="">اطلاعات بیشتر</a>
+                        </div>
+
+                        <div style="display: none;" class="LeftDiv">
+                            <img style="width: 50%;border-radius: 50px;" src="image/programmers.webp">
+                        </div>
+
+                        <div style="display: block;" class="RightDiv">
+                            <img style="width: 50%;border-radius: 50px;" src="image/programmers.webp" alt="">
+                        </div>
+
+                        <div style="display: block;" class="LeftDiv">
+                            <h1 style="color: #3b3b3b; font-family:iran;">درباره ما</h1><br><br/>
+                            <p style="color: #3b3b3b;font-family:iran;">
+                                دراگون پروگرامر یک تیم جوان با تجربه و با توکل و تکیه بر خدا است که به این عرصه امده است که کار های بزرگی کند.
+                                <br>
+                                تیم دراگون یک تیم بازی سازی افلاین / انلاین است که اندیشه بر این سخن امام علی دارد که میگوید ذکات علم نشر ان است. که تیم ما علم خود را با شما به اشتراک میگذارد
+                            </p><br><br/>
+                            <a href="">اطلاعات بیشتر</a>
+                        </div>
+                    </div>
+                    <br><br/>
+                </div>
+                
+                 <!--<div class="fH1Ch">
+                    <br><br/>
+                    <h1></h1>
+                    <br><br/>
+                </div>!-->
+                <div class="CSearchBox">
+                    <div class="title">
+                        <h1>جست و جو</h1>
+                    </div>
+                    <div class="CSearchBoxContent">
+                        <input type="text" name="CSearchBox" placeholder="لطفا یک متن وارد کنید ...">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="fH1Ch">
+                    <br><br/>
+                    <h1>پیشنهاد ما به شما</h1>
+                </div>
+                <div class="flex-box">
+                    <div v-for="flexBox in flexBoxs" class="flex-Item">
+                        <div class="title">
+                            <h1>{{flexBox.Title}}</h1>
+                        </div>
+                        <br>
+                        <img style="width: 100%;" src="image/programmers.webp">
+                        <div class="FBcontent">
+                            <p>
+                               {{flexBox.Text}}
+                            </p>
+                            <br><br/>
+                            <a :href="flexBox.Link">اطلاعات بیشتر</a>
+                        </div>
+                        <br>
+                         
+                    </div>
+                </div>
+                <div class="fH1Ch">
+                    <br><br/>
+                    <h1>دسته بندی ها</h1>
+                    <br><br/>
+                </div>
+                <div class="categoriy">
+                    <a v-for="Categori in Categoris" :href="Categori.Links" class="categoryitem">
+                        <div class="title">
+                            <h1> {{Categori.Title}} </h1>
+                        </div>
+                        <img :src="Categori.imageLink">
+                    </a>
+                </div>
+                <div v-for="Categori in Categoris" :class="Categori.Class">
+                    <div class="fH1Ch">
+                    <br><br/>
+                    <h1>{{Categori.Title}}</h1>
+                    <br><br/>
+                </div>
+                <div class="flex-box">
+                    <div v-for="FlexItems in Categori.FlexItem" class="flex-Item">
+                        <div class="title">
+                            <h1>{{FlexItems.Title}}</h1>
+                        </div>
+                        <br>
+                        <img style="width: 100%;" :src="FlexItems.imageLink">
+                        <div class="FBcontent">
+                            <p>
+                               {{FlexItems.Text}}
+                            </p>
+                            <br><br/>
+                            <a :href="FlexItems.Link">اطلاعات بیشتر</a>
+                        </div>
+                        <br>
+                         
+                    </div>
+                </div>
+                </div>
+            </div>
+            <br><br/>
+            <footer>
+                <div class="col12footer">
+                    <div class="row">
+                        <div class="pages">
+                            <li><a href="#">افتخارات</a></li>
+                            <li><a href="">اموزش ها</a></li>
+                            <li><a href="">بازی ها</a></li>
+                        </div>
+                        <div class="Mozoh">
+                            <p>استخدام در دراگون پروگرامر</p>
+                            <a href="">مطالعه بیشتر</a>
+                        </div>
+                        <div class="khabarname">
+                            <p>به خبر نامه ما عضو شوید</p>
+                            <div class="registerbox">
+                                <input type="text" name="registerboxs" placeholder="ایمیل">
+                                <button>تایید ایمیل</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>تمامی حقوق سایت مربوط به سایت گیم بانچ است.</p>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="../assets/vue.js"></script>
+        <script src="function/js.js"></script>
+    </body>
+</html>

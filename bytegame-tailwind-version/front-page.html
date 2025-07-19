@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Bytegame</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="dist/output.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="../assets/fontawesome/css/all.min.css" />
+	<link rel="stylesheet" href="package/swiper-bundle.min.css" />
+
+	<script type="text/javascript" src="jquery.js"></script>
+
+</head>
+<body class="bg-[#0b141b] text-white font-snas">
+
+	<!-- header -->
+	<header class="flex flex-row bg-[#0e1f26] p-4">
+
+		<!-- header brand -->
+		<div class="flex-1 flex justify-start lg:justify-center items-center">
+			<h2 class="text-[#0ad181] text-3xl font-bold"><a href="">ByteGame</a></h2>	
+		</div>
+
+		<!-- header collapse content -->
+		<div id="site-collapse-content" class="flex-[4_4_0%] hidden flex-col absolute lg:relative top-16 w-full left-0 lg:top-0 bg-[#0e1f26] lg:flex lg:flex-row justify-center items-center lg:p-0 p-3 z-10">
+
+			<!-- header menu -->
+			<ul class="flex-[4_4_0%] flex flex-col lg:flex-row w-full flex-wrap justify-start items-start lg:items-center">
+				<li class="ml-3 lg:mt-0 mt-3"> <a href="">Games</a> </li>
+				<li class="ml-3 lg:mt-0 mt-3"> <a href="">About Us</a> </li>
+			</ul>
+
+			<!-- header LR Buttons -->
+			<div class="flex-1 flex flex-row justify-center items-center">
+
+				<!-- just now it is hidden -->
+				<a class=" flex flex-row justify-center items-center hidden" href="">
+					<img class="rounded-full w-10 h-10" src="images/user.webp">
+					<h1 class="ml-2">Mohammad</h1>
+				</a>
+
+				<a href="" class="bg-green-400 pl-6 pr-6 pt-2 pb-2 rounded-full">Login</a>
+	
+			</div>
+		</div>
+
+		<div class="flex-1 lg:hidden flex flex-row justify-end items-center">
+
+			<button id="toggle-collapse">
+				<i class="fa-solid fa-bars text-3xl"></i>
+			</button>
+
+		</div>
+
+	</header>
+		
+	<div style="background-image: url(images/slider.webp);" class="h-96 flex flex-row justify-center items-center bg-[url(/images/slider.webp)] bg-no-repeat bg-cover bg-neutral-600 bg-blend-multiply">
+		<div class="w-3/4">
+			<h1 class="text-3xl font-extrabold">Slider Title</h1>
+			<p class="mt-3 text-gray-300">This is my first slider</p>
+			<h2 class="mt-5"><a class="bg-green-400 pl-7 pr-7 pt-2 pb-2 rounded-md" href="">More</a></h2>
+		</div>
+	</div>
+
+	<!-- Games -->
+
+	<div class="p-6 my-6">
+
+		<div class="text-center">
+            <h1 class="text-4xl text-gray-800 font-extrabold">
+                Games
+            </h1>
+            <p class="mt-3 text-gray-500">
+                Games that are loved by the community. Updated every hour.
+            </p>
+        </div>
+		 
+		<div>
+			
+			<div class="max-w-6xl mx-auto p-4 sm:px-6 h-full mt-10">
+	        <!-- Blog post -->
+	        <article class="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
+	            <a class="relative block group" href="#0">
+	                <div class="absolute inset-0 bg-gray-800 hidden md:block transform md:translate-y-2 md:translate-x-4 xl:translate-y-4 xl:translate-x-8 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out pointer-events-none" aria-hidden="true"></div>
+	                <figure class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
+	                    <img class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out" src="images/game1.webp" width="540" height="303" alt="Blog post">
+	                </figure>
+	            </a>
+	            <div>
+	                <header>
+	                    <div class="mb-3">
+	                        <ul class="flex flex-wrap text-xs font-medium -m-1">
+	                            <li class="m-1">
+	                                <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" href="#0">Platform games</a>
+	                            </li>
+	                        </ul>
+	                    </div>
+	                    <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
+	                        <a class="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">First Game.</a>
+	                    </h3>
+	                </header>
+	                <p class="text-lg text-gray-400 flex-grow">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero.</p>
+	                <footer class="flex items-center mt-4">
+	                    <a href="#0">
+	                        <img class="rounded-full flex-shrink-0 mr-4" src="images/user.webp" width="40" height="40" alt="Author 04">
+	                    </a>
+	                    <div>
+	                        <a class="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Author</a>
+	                        <span class="text-gray-700"> - </span>
+	                        <span class="text-gray-500">Jan 19, 2020</span>
+	                    </div>
+	                </footer>
+	            </div>
+	        </article>    
+	    </div>
+
+	    <div class="max-w-6xl mx-auto p-4 sm:px-6 h-full mt-10">
+	        <!-- Blog post -->
+	        <article class="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
+	        	<a class="relative block group md:order-last" href="#0">
+	                <div class="absolute inset-0 bg-gray-800 hidden md:block transform md:translate-y-2 md:translate-x-4 xl:translate-y-4 xl:translate-x-8 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out pointer-events-none" aria-hidden="true"></div>
+	                <figure class="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
+	                    <img class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out" src="images/game1.webp" width="540" height="303" alt="Blog post">
+	                </figure>
+	            </a>
+	            <div>
+	                <header>
+	                    <div class="mb-3">
+	                        <ul class="flex flex-wrap text-xs font-medium -m-1">
+	                            <li class="m-1">
+	                                <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out" href="#0">Shooter games</a>
+	                            </li>
+	                        </ul>
+	                    </div>
+	                    <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
+	                        <a class="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Second Game</a>
+	                    </h3>
+	                </header>
+	                <p class="text-lg text-gray-400 flex-grow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto at omnis voluptatum dolorum. Magnam, dolorum?</p>
+	                <footer class="flex items-center mt-4">
+	                    <a href="#0">
+	                        <img class="rounded-full flex-shrink-0 mr-4" src="images/user.webp" width="40" height="40" alt="Author 04">
+	                    </a>
+	                    <div>
+	                        <a class="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Author</a>
+	                        <span class="text-gray-700"> - </span>
+	                        <span class="text-gray-500">Jan 19, 2020</span>
+	                    </div>
+	                </footer>
+	            </div>
+	        </article>    
+	    </div>
+
+		</div>
+
+		<h1 class="text-center mt-12"><a href="" class="bg-gray-600 pt-2 pr-6 pl-6 pb-2 rounded-full">More Games</a></h1>
+
+	</div>
+
+	<section class="mt-12 mx-auto px-4 max-w-screen-xl lg:px-8">
+            <div class="text-center">
+		        <h1 class="text-4xl text-gray-800 font-extrabold">
+		            Blog
+		        </h1>
+		        <p class="mt-3 text-gray-500">
+		            Blogs that are loved by the community. Updated every hour.
+		        </p>
+		    </div>
+            <div class="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+
+                <article class="max-w-md mx-auto mt-4 shadow-lg bg-gray-800 rounded-md duration-300 hover:shadow-sm">
+                    <a href="">
+                        <img src="images/game1.webp"  class="w-full h-48 rounded-t-md" />
+
+                        <div class="pt-3 ml-4 mr-2 mb-3">
+                            <h3 class="text-xl text-white font-bold">
+                                My Title
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">My Description</p>
+                        </div>
+
+                        <div class="flex items-center mt-2 p-3 ml-4 mr-2 border-t border-gray-500">
+                            <div class="flex-none w-10 h-10 rounded-full">
+                                <img src="images/game1.webp" class="w-full h-full rounded-full" />
+                            </div>
+                            <div class="flex-1 ml-3">
+                                <span class="block font-bold">Mohammad</span>
+                                <span class="block text-gray-400 text-sm">jullay 26 12</span>
+                            </div>
+                            <div class="flex-1 ml-3 flex justify-end items-center">
+                            	<p class="text-gray-400">1002</p>
+                            	<i class="fa-solid fa-comment ml-3"></i>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </article><article class="max-w-md mx-auto mt-4 shadow-lg bg-gray-800 rounded-md duration-300 hover:shadow-sm">
+                    <a href="">
+                        <img src="images/game1.webp"  class="w-full h-48 rounded-t-md" />
+
+                        <div class="pt-3 ml-4 mr-2 mb-3">
+                            <h3 class="text-xl text-white font-bold">
+                                My Title
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">My Description</p>
+                        </div>
+
+                        <div class="flex items-center mt-2 p-3 ml-4 mr-2 border-t border-gray-500">
+                            <div class="flex-none w-10 h-10 rounded-full">
+                                <img src="images/game1.webp" class="w-full h-full rounded-full" />
+                            </div>
+                            <div class="flex-1 ml-3">
+                                <span class="block font-bold">Mohammad</span>
+                                <span class="block text-gray-400 text-sm">jullay 26 12</span>
+                            </div>
+                            <div class="flex-1 ml-3 flex justify-end items-center">
+                            	<p class="text-gray-400">1002</p>
+                            	<i class="fa-solid fa-comment ml-3"></i>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </article><article class="max-w-md mx-auto mt-4 shadow-lg bg-gray-800 rounded-md duration-300 hover:shadow-sm">
+                    <a href="">
+                        <img src="images/game1.webp"  class="w-full h-48 rounded-t-md" />
+
+                        <div class="pt-3 ml-4 mr-2 mb-3">
+                            <h3 class="text-xl text-white font-bold">
+                                My Title
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">My Description</p>
+                        </div>
+
+                        <div class="flex items-center mt-2 p-3 ml-4 mr-2 border-t border-gray-500">
+                            <div class="flex-none w-10 h-10 rounded-full">
+                                <img src="images/game1.webp" class="w-full h-full rounded-full" />
+                            </div>
+                            <div class="flex-1 ml-3">
+                                <span class="block font-bold">Mohammad</span>
+                                <span class="block text-gray-400 text-sm">jullay 26 12</span>
+                            </div>
+                            <div class="flex-1 ml-3 flex justify-end items-center">
+                            	<p class="text-gray-400">1002</p>
+                            	<i class="fa-solid fa-comment ml-3"></i>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </article><article class="max-w-md mx-auto mt-4 shadow-lg bg-gray-800 rounded-md duration-300 hover:shadow-sm">
+                    <a href="">
+                        <img src="images/game1.webp"  class="w-full h-48 rounded-t-md" />
+
+                        <div class="pt-3 ml-4 mr-2 mb-3">
+                            <h3 class="text-xl text-white font-bold">
+                                My Title
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">My Description</p>
+                        </div>
+
+                        <div class="flex items-center mt-2 p-3 ml-4 mr-2 border-t border-gray-500">
+                            <div class="flex-none w-10 h-10 rounded-full">
+                                <img src="images/game1.webp" class="w-full h-full rounded-full" />
+                            </div>
+                            <div class="flex-1 ml-3">
+                                <span class="block font-bold">Mohammad</span>
+                                <span class="block text-gray-400 text-sm">jullay 26 12</span>
+                            </div>
+                            <div class="flex-1 ml-3 flex justify-end items-center">
+                            	<p class="text-gray-400">1002</p>
+                            	<i class="fa-solid fa-comment ml-3"></i>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </article><article class="max-w-md mx-auto mt-4 shadow-lg bg-gray-800 rounded-md duration-300 hover:shadow-sm">
+                    <a href="">
+                        <img src="images/game1.webp"  class="w-full h-48 rounded-t-md" />
+
+                        <div class="pt-3 ml-4 mr-2 mb-3">
+                            <h3 class="text-xl text-white font-bold">
+                                My Title
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">My Description</p>
+                        </div>
+
+                        <div class="flex items-center mt-2 p-3 ml-4 mr-2 border-t border-gray-500">
+                            <div class="flex-none w-10 h-10 rounded-full">
+                                <img src="images/game1.webp" class="w-full h-full rounded-full" />
+                            </div>
+                            <div class="flex-1 ml-3">
+                                <span class="block font-bold">Mohammad</span>
+                                <span class="block text-gray-400 text-sm">jullay 26 12</span>
+                            </div>
+                            <div class="flex-1 ml-3 flex justify-end items-center">
+                            	<p class="text-gray-400">1002</p>
+                            	<i class="fa-solid fa-comment ml-3"></i>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </article><article class="max-w-md mx-auto mt-4 shadow-lg bg-gray-800 rounded-md duration-300 hover:shadow-sm">
+                    <a href="">
+                        <img src="images/game1.webp"  class="w-full h-48 rounded-t-md" />
+
+                        <div class="pt-3 ml-4 mr-2 mb-3">
+                            <h3 class="text-xl text-white font-bold">
+                                My Title
+                            </h3>
+                            <p class="text-gray-400 text-sm mt-1">My Description</p>
+                        </div>
+
+                        <div class="flex items-center mt-2 p-3 ml-4 mr-2 border-t border-gray-500">
+                            <div class="flex-none w-10 h-10 rounded-full">
+                                <img src="images/game1.webp" class="w-full h-full rounded-full" />
+                            </div>
+                            <div class="flex-1 ml-3">
+                                <span class="block font-bold">Mohammad</span>
+                                <span class="block text-gray-400 text-sm">jullay 26 12</span>
+                            </div>
+                            <div class="flex-1 ml-3 flex justify-end items-center">
+                            	<p class="text-gray-400">1002</p>
+                            	<i class="fa-solid fa-comment ml-3"></i>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </article>
+                
+            </div>
+
+            <h1 class="text-center mt-12"><a href="" class="bg-gray-600 pt-2 pr-6 pl-6 pb-2 rounded-full">More Posts</a></h1>
+
+        </section>
+
+	<footer class="mt-12 flex lg:flex-row flex-col bg-[#0e1f26] p-6">
+		<div class="flex-1 flex justify-center items-center mt-3">
+			<h1 class="font-extrabold text-2xl text-green-400">ByteGame</h1>
+		</div>
+		<div class="flex-1 mt-3">
+			<h1 class="font-bold text-xl text-gray-200">latest posts</h1>
+			<ul class="mt-3 text-gray-400">
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 1</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 2</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 3</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="flex-1 mt-3">
+			<h1 class="font-bold text-xl text-gray-200">latest posts</h1>
+			<ul class="mt-3 text-gray-400">
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 1</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 2</a></li>
+				<li class="mt-1 hover:ml-3 ease-in duration-300 w-fit"><i class="fa-solid fa-arrow-right">&nbsp;</i><a href="">item 3</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="flex-1 mt-3">
+			<h1 class="font-bold text-xl text-gray-200">social media</h1>
+			<ul class="flex flex-row mt-3">
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-twitch"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+				<li class="m-1 text-3xl hover:text-gray-400 ease-in duration-200"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+				<!-- <li><a href=""></a></li> -->
+			</ul>
+		</div>
+	</footer>
+
+	<script src="../assets/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

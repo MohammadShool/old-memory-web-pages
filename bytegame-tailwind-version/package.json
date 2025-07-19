@@ -1,0 +1,15 @@
+{
+  "name": "bytegame",
+  "version": "1.0.0",
+  "description": "testy",
+  "scripts": {
+  	"build-css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "mohammad",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
+}

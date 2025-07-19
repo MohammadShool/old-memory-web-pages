@@ -1,0 +1,235 @@
+* {
+    margin: 0 auto;
+}
+.colapser{
+    display:none;
+}
+#opener-navigation-bar{
+    display: none;
+}
+#closer-item-in-navigationbar{
+    display: none;
+}
+header{
+
+    box-shadow: 1px 1px 30px 5px #d3d3d3;
+}
+.login-form{
+    margin-top: 35px;
+}
+#mySidenav-camputer{
+    margin-top: 35px;
+}
+#mySidenav-camputer a{
+    text-decoration: none;
+    color: #4f5454;
+    margin-right: 20px;
+    font-family: Tahoma;
+}
+.login-form a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.login-form #login{
+    padding: 15px 25px;
+    color: #673ab7!important;
+    border-radius: 50px;
+    box-shadow: none!important;
+    background: #e9e2f5!important;
+    transition-duration: 0.2s;
+}
+.login-form #register{
+    background-color: #673ab7;
+    background-image: linear-gradient(135deg,#9667ea,#673ab7)!important;
+    border: none!important;
+    border-radius: 50px!important;
+    
+ 
+    color: #fff!important;
+    font-weight: 300;
+    transition-duration: .2s;
+    padding: 14px 45px;
+    box-shadow: 0 7px 20px #673ab755;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.logo-camputer{
+    width: 17%;
+    margin-top: 15px;
+}
+.camputer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+
+}
+#videowroutade{
+    transform: rotate(2deg);
+    transition: .5s;
+}
+#videowroutade:hover{
+    transform: rotate(0);
+    transition: .5s;
+}
+.row{
+    display: flex;
+}
+.col-2{
+    width: 16%;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 30px 2px #eeeeee;
+}
+.col-2 img{
+      width: 80%;
+      border-bottom-right-radius: 70px;
+      border-bottom-left-radius: 70px;
+      border-top-left-radius: 70px;
+      border-top-right-radius: 70px;
+    transition: .2s;
+  }
+.col-2:hover img{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: .2s;
+}
+.col-6{
+    width: 96%;
+}
+.footer{
+    width:100%;
+    box-shadow: 1px 1px 30px 5px #d3d3d3;
+}
+@media (max-width: 900px) {
+    .footer{
+        display:none;
+    }
+    .camputer{
+        display: none;
+    }
+    .colapser{
+        display:block;
+    }
+    #opener-navigation-bar{
+        display: block;
+    }
+    #closer-item-in-navigationbar{
+        display: block;
+        display: block;
+    }
+    .opener-colapser .colapseropener1{
+    width: 100%;
+        background-color: #222222;
+        height: 1px;
+        margin-top: 5px;
+    }
+    .opener-colapser .colapseropener2{
+        width: 100%;
+        background-color: #222222;
+        height: 1px;
+        margin-top: 5px;
+    }
+    .opener-colapser .colapseropener3{
+          width: 100%;
+          background-color: #222222;
+          height: 1px;
+          margin-top: 5px;
+      }
+
+    .opener-colapser{
+        width: 7%;
+        margin-top: 30px;
+    }
+    .opener-colapser:hover{
+        cursor: pointer;
+    }
+    header{
+   height: auto;
+    }
+    .logo{
+        width:60%;
+
+    }
+    .login-form{
+        margin-bottom: 20px;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        text-align: right;
+        background-color: #575757;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover, .offcanvas a:focus{
+        color: #cccccc;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    #banarmelighttow{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+        margin-top: 10px;
+        width: 90%;
+    }
+    #displayflexforfoter{
+        flex-direction: column;
+    }
+    #displayflexforfoter div{
+        margin-top: 10px;
+        width: 90%;
+    }
+    #displaynone{
+        display: none;
+    }
+   
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+}

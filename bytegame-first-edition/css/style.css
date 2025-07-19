@@ -1,0 +1,445 @@
+@font-face {
+    font-family: ANegaar;
+    src: url(../../assets/fonts/ANegaar.ttf);
+}
+
+@font-face {
+    font-family: WahmFarsi;
+    src: url(../../assets/fonts/WahmFarsi.ttf);
+}
+
+/*
+color schecma:
+#272727
+*/
+
+#LoadingPage
+{
+    position: fixed;
+    z-index: 1000000;
+    background-color: #272727;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top:0;
+}
+
+p,
+h1,h2,h3,h4,h5,h6,
+input,
+button,
+a,
+li
+{
+    font-family: ANegaar;
+}
+
+body
+{
+    background-color: #272727c0;
+    background-blend-mode: multiply;
+    background-image: url(../img/background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-dark
+{
+    background-color: #000000!important;
+}
+
+/* Navbar */
+
+.navbar
+{
+    background: unset;
+}
+
+.navbar-back
+{
+    background-color: black;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.navbar-brand
+{
+    font-weight: bold!important;
+    font-size: 30px;
+}
+
+.navbar-toggler
+{
+    border: none;
+}
+
+/* burgur Icon */
+
+.bg-toggler
+{
+    background-color: unset;
+    color:white;
+    border:none;
+    width: 50px;
+    height: 50px;
+}
+
+.bg-toggler hr
+{
+    height: 2px;
+    margin:auto;
+    margin-top: 10px;
+    opacity: 80%;
+    margin-bottom: 10px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+.offcanvas-header
+{
+    border-bottom: solid 2px grey;
+}
+
+.UserLinks
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserLinks a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.UserLinks a:hover
+{   
+    opacity: 75%;
+    transition: 0.3s;
+}
+
+.UserLinks .UserLinks-Login
+{
+    background-color: #ff652f;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.UserLinks .UserLinks-Register
+{
+    background-color: #14a76c;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.circle{
+    width: 20px;
+    position: absolute;
+    background-color: white;
+    outline: solid 3px white;
+    border-radius: 50px;
+    height: 20px;
+
+    border-right: solid 3px #14a76c;
+    border-left: solid 3px #ff652f;
+    border-top: solid 3px #ff652f;
+    border-bottom: solid 3px #14a76c;
+}
+
+.Search-Form
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-Form-Btn
+{
+    border-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #ffe400;
+    border-color: #ffe400;
+}
+
+.Search-Form-Btn:hover
+{
+    background-color: #ffe400;
+    color: #272727;
+}
+
+.Search-Form-Text
+{
+    border-radius: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+/* Banner Top */
+
+.Banner-Top-Page
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid 5px black;
+    padding-bottom: 50px;
+}
+
+.Banner-Top-Page h1
+{
+    flex: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner-Top-Page .ButtonBannerDowner
+{
+    flex: 1;
+    border: none;
+    background-color: none;
+    background: unset;
+    color:white;
+    justify-self: flex-end;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* contents */
+
+.DivTitle
+{
+    padding: 20px;
+    border-bottom: solid 3px #ff652f;
+    width: fit-content;
+    font-family: WahmFarsi;
+    font-weight: bold;
+    color: #ff652f;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+.text-muted
+{
+    color: #adadad!important;
+}
+
+/* Games Cards */
+
+.card-text
+{
+    font-size: 15px;
+}
+
+.Card-More-Link
+{
+    text-decoration: none;
+    color: #ff652f;
+}
+
+.btn-primary
+{
+    background-color: #ff652f;
+    border: none;
+}
+
+.btn-primary:hover , .btn-primary:active , .btn-primary:focus
+{
+    background-color: #df4a14;
+}
+
+.Our-Games-More-Btn
+{
+    width: 100px;
+    margin-inline: auto;
+}
+
+/* contact us */
+
+.contact-us-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-us-form *
+{
+    margin-top: 20px;
+    color: white;
+}
+
+.contact-us-form input:not([type="submit"])
+{
+    width: 80%;
+    border: none;
+    background-color: unset;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+.contact-us-form textarea
+{
+    width: 80%;
+    border: none;
+    background-color: unset;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+footer
+{
+    border-top: solid 3px #fd916a;
+}
+
+.MainLoginPage
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Login
+{
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    backdrop-filter: saturate(180%) blur(10px);
+    border-radius: 15px;
+    border: solid 2px #2b2b2b;
+    text-align: center;
+}
+
+.Login label
+{
+    font-family: ANegaar;
+}
+
+.Login *
+{
+    margin-top: 20px;
+}
+
+.Login input:not([type="submit"])
+{
+    width: 90%;
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: right;
+}
+
+.LoginTitle
+{
+    font-family: WahmFarsi;
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: solid 3px #ff652f;
+    padding-bottom: 20px;
+    color: #ff652f;
+}
+
+.MoreLink
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MoreLink p
+{
+    margin: 10px;
+}
+
+.MoreLink p a
+{
+    color: #ff652f;
+    text-decoration: none;
+}
+
+/* Game Details */
+
+.Game-Details-Thumbnails
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #272727c0;
+    background-blend-mode: multiply;
+    background-image: url(../img/gamedetails.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Game-Details-Thumbnails .UserPath
+{
+    background-color: rgba(0, 0, 0, 0.418);
+    backdrop-filter: saturate(180%) blur(10px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#game-detail-content
+{
+    background-color: #0000009f;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.Sidebar
+{
+    background-color: #0000009f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Sidebar ul
+{
+    list-style: none;
+}
+
+.Sidebar ul li
+{
+    margin-top: 5px;
+}
+
+.Sidebar ul li a
+{
+    color: white;
+}
