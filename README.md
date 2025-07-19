@@ -37,3 +37,19 @@ The main reason I made this public is that I wanted to use GitHub's static pages
     - [index](https://mohammadshool.github.io/old-memory-web-pages/the-best-blog/index.html)
     - [blog](https://mohammadshool.github.io/old-memory-web-pages/the-best-blog/blog.html)
     - [single post](https://mohammadshool.github.io/old-memory-web-pages/the-best-blog/single.html)
+
+
+## screenshots
+<div style="display: flex">
+    <img style="width: 33%" src="./bytegame-first-edition/screenshots/index-desktop.webp" />
+    <img style="width: 33%" src="./bytegame-tailwind-version/screenshots/home-desktop.webp" />
+    <img style="width: 33%" src="./dandedo/screenshots/index-desktop.webp" />
+</div>
+<div style="display: flex">
+    <img style="width: 33%" src="./mihanwp/screenshots/index-desktop.webp" />
+    <img style="width: 33%" src="./the-best-blog/screenshots/index-desktop.webp" />
+    <img style="width: 33%" src="./hotel-and-airbus/screenshots/screenshot.webp" />
+</div>
+<div style="display: flex">
+    <img style="width: 33%" src="./dragon-programmer/screenshots/index-desktop.webp" />
+</div>
