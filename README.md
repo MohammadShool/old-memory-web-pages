@@ -1,12 +1,9 @@
 # Description
-In this repository, I've uploaded some of the web pages I built when I was just starting out in the field of computers. These pages probably won’t be useful to you — they’re more of a nostalgic reminder for me — but you might find it interesting to see what kind of terrible web pages I used to make at the beginning: not that things have changed much since then :-).
-
-The main reason I made this public is that I wanted to use GitHub's static pages feature.
+my first web pages are here.
+the main reason I made this public is that i wanted to use github static pages feature.
 
 # توضیحات
-در این ریپازیتوری من وب پیج های که برای تمرین در زمان شروع حوزه کامپیوتر انجام میدادم گذاشتم. این وب پیچ ها بدرد شما نمیخوره صرفا خاطره ای برای من هست, ولی ممکنه جالب باشه براتون که در شروع چه وب پیج های داغونی میساختم, البته الانم تغییری نکرده :-)
-
-بیشتر پابلیک کردنش به دلیل اینه که میخواستم از static pages گیت هاب استفاده کنم
+اولین وب پیج های خودمو اینجا گذاشتم. فکر نکنم چیز جذابی برای شما داشته باشه. ولی میتونید ببینید که چقدر اولین صفحاتی که ساختم چه افتضاحی بوده. هر چند که الانم تغییری نکردم :)
 
 # Web Pages
 - [bytegame first edition](https://github.com/MohammadShool/old-memory-web-pages/tree/main/bytegame-first-edition)
