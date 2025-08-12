@@ -3,7 +3,7 @@ my first web pages are here.
 the main reason I made this public is that i wanted to use github static pages feature.
 
 # توضیحات
-اولین وب پیج های خودمو اینجا گذاشتم. فکر نکنم چیز جذابی برای شما داشته باشه. ولی میتونید ببینید که چقدر اولین صفحاتی که ساختم چه افتضاحی بوده. هر چند که الانم تغییری نکردم :)
+اولین وب پیج های خودمو اینجا گذاشتم. فکر نکنم چیز جذابی برای شما داشته باشه. ولی میتونید ببینید که اولین صفحاتی که ساختم چه افتضاحی بوده. هر چند که الانم پیشرفت خاصی به اون موقع نداشتم :)
 
 # Web Pages
 - [bytegame first edition](https://github.com/MohammadShool/old-memory-web-pages/tree/main/bytegame-first-edition)
